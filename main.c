@@ -6,7 +6,12 @@
 #include "timer.h"
 #include "button.h"
 
-// button turns on led, interrupt + debounce
+/**
+ * GPIO Registers:
+ * Offset is 0x514 to set direction
+ * Offset is 0x504 to set high/low
+ * Offset is 0x508 to read high/low
+*/
 
 
 
